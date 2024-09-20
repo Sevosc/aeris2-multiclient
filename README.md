@@ -36,6 +36,16 @@ Aby każdy klient działał na osobnym proxy, wykonaj poniższe kroki:
 ## Krok 5: Uruchamianie wielu klientów
 Teraz, gdy wszystko jest skonfigurowane, ponownie uruchom skrypt, wybierz liczbę klientów, których chcesz używać. Każdy klient powinien działać na osobnym proxy.
 
+## Dodatkowa informacja
+
+Jeśli któryś z klientów zostanie wyrzucony (rozłączony), możesz użyć skryptu, aby uruchomić tylko tego jednego klienta:
+
+1. Uruchom skrypt i wybierz pierwszą opcję.
+2. Wybierz pierwszy klient, który nie jest jeszcze uruchomiony.
+
+Dzięki temu nie musisz zamykać wszystkich klientów i możesz szybko wznowić działanie jednego z nich.
+
+
 Gotowe! Powinieneś być teraz w stanie uruchomić wielu klientów Metin2, każdy przez inne proxy.
 
 ---
