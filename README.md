@@ -12,6 +12,7 @@ Następnym krokiem jest pobranie programu do uruchamiania aplikacji przez proxy.
 1. Otwórz Proxifier.
 2. Kliknij **Profile > Proxy Servers**.
 3. Dodaj swoje proxy (pamiętaj, że musisz mieć osobne proxy dla każdego klienta).
+![Proxy Servers](./images/1.png)
 
 ## Krok 3: Uruchomienie skryptu do tworzenia plików startowych
 Potrzebny będzie skrypt, który stworzy osobne pliki startowe do Metina. Wykonaj poniższe kroki:
@@ -22,6 +23,7 @@ Potrzebny będzie skrypt, który stworzy osobne pliki startowe do Metina. Wykona
 4. Gdy skrypt się uruchomi, wybierz opcję `2`, aby uruchomić wiele klientów.
 5. W pierwszej opcji wybierz `0`, a następnie wpisz liczbę klientów, jakich chcesz używać.
 6. Po uruchomieniu klientów, zamknij wszystkie okna klientów.
+![Running script](./images/2.png)
 
 ## Krok 4: Przypisywanie klientów do proxy w Proxifier
 Aby każdy klient działał na osobnym proxy, wykonaj poniższe kroki:
@@ -29,6 +31,7 @@ Aby każdy klient działał na osobnym proxy, wykonaj poniższe kroki:
 1. W Proxifier kliknij **Profile > Proxification Rules**.
 2. Przypisz każdy plik `metin2.client.bin` do innego proxy.
 3. Zatwierdź ustawienia klikając **OK**.
+![Proxification Rules](./images/3.png)
 
 ## Krok 5: Uruchamianie wielu klientów
 Teraz, gdy wszystko jest skonfigurowane, ponownie uruchom skrypt, wybierz liczbę klientów, których chcesz używać. Każdy klient powinien działać na osobnym proxy.
