@@ -41,7 +41,7 @@ Teraz, gdy wszystko jest skonfigurowane, ponownie uruchom skrypt, wybierz liczb�
 Jeśli któryś z klientów zostanie wyrzucony (rozłączony), możesz użyć skryptu, aby uruchomić tylko tego jednego klienta:
 
 1. Uruchom skrypt i wybierz pierwszą opcję.
-2. Wybierz pierwszy klient, który nie jest jeszcze uruchomiony.
+2. Wybierz pierwszy klient, który nie jest jeszcze uruchomiony ('1' zawsze odpala sie bez proxy na twoim ip).
 
 Dzięki temu nie musisz zamykać wszystkich klientów i możesz szybko wznowić działanie jednego z nich.
 
