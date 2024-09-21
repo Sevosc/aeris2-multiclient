@@ -25,6 +25,25 @@ Potrzebny będzie skrypt, który stworzy osobne pliki startowe do Metina. Wykona
 6. Po uruchomieniu klientów, zamknij wszystkie okna klientów.
 ![Running script](./images/2.png)
 
+### Wymagane pakiety Python:
+Aby skrypt działał poprawnie, musisz upewnić się, że masz zainstalowane następujące pakiety:
+
+- **Standardowe pakiety Python** (instalowane automatycznie z Pythonem):
+  - `subprocess`
+  - `os`
+  - `time`
+  - `logging`
+
+- **Pakiety zewnętrzne (musisz je zainstalować)**:
+  - `pyuac`
+  - `psutil`
+
+Aby zainstalować te pakiety, możesz użyć poniższej komendy w terminalu:
+
+```bash
+pip install pyuac psutil
+```
+
 ## Krok 4: Przypisywanie klientów do proxy w Proxifier
 Aby każdy klient działał na osobnym proxy, wykonaj poniższe kroki:
 
